@@ -1,7 +1,46 @@
 body{
     font-family: 'Roboto Slab', serif;
+    background-color:#4DF7DE;
 }
 
 h1,h2,h2,h4,h5,h6{
+    text-shadow:2px 2px #3ACCE0;
     font-family: 'Yeseva One', cursive;
+
+    
+}
+
+/*bio*/
+
+#bio img{
+    max-width:200px;
+}
+
+#bio p{
+    padding:10px;
+    border:outset;
+}
+
+#bio hr{
+    background-color:#41B4FC;
+    margin-top:40px;
+    height:5px;
+}
+
+
+/*works*/
+
+#portfolio ul li{
+    list-style:square;
+    padding:10px;
+}
+
+
+/*footer*/
+
+footer{
+    border:double;
+    background-color:#3ACCE0;
+    padding:10px;
+    text-align:center;
 }
